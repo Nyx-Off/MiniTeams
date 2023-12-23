@@ -1,4 +1,4 @@
-# README pour le Projet de Communication Interprocessus (Détails Techniques)
+# Mini Teams V1
 
 ## Introduction
 
