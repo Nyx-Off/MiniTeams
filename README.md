@@ -57,4 +57,4 @@ Ce dépôt présente trois versions innovantes du projets MiniTeams. Chaque vers
 
 ## Licence
 
-Les projets sont distribués sous la licence M1 truc je crois, bref m'en fou .
+Les projets sont distribués sous la licence MIT truc je crois, bref m'en fou .
