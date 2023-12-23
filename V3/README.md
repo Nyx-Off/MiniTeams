@@ -1,2 +1,3 @@
 # MiniTeams
-1er Projet de mon année de License , fait un mini teams en C
+envoie de l'ascii directement en passent par les signals.
+- plus rapide en transmision.

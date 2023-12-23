@@ -1,2 +1,2 @@
 # MiniTeams
-1er Projet de mon année de License , fait un mini teams en C
+envoie des octet par 2, et en utilisant 4 signals.
