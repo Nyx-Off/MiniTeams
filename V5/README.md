@@ -6,8 +6,6 @@
 - [client.c - Analyse Détaillée](#clientc---analyse-détaillée)
 - [server.c - Analyse Détaillée](#serverc---analyse-détaillée)
 - [Transmission de Données](#transmission-de-données)
-- [Gestion des Emojis](#gestion-des-emojis)
-- [Points Importants](#points-importants)
 - [Conclusion](#conclusion)
 
 ## Aperçu
@@ -44,27 +42,6 @@ Ce projet implémente un système de communication entre un client et un serveur
 ### Transmission des Données
 - **Client:** Envoie du PID et du message octet par octet.
 - **Serveur:** Réception et assemblage du PID et du message.
-
-## Gestion des Emojis
-
-### Codage en UTF-8
-- Les emojis sont codés en UTF-8 (1 à 4 octets).
-- **Client:** Lecture et envoi des emojis en séquence d'octets.
-- **Serveur:** Réception et reconstruction des octets en emojis.
-
-### Affichage des Emojis
-- Nécessite que le terminal ou le système du serveur supporte l'UTF-8.
-
-## Points Importants
-
-### Asynchronicité
-- Communication asynchrone, permettant au client de continuer après l'envoi d'un signal.
-
-### Fiabilité et Performance
-- Méthode non conventionnelle, moins efficace que les sockets TCP/IP.
-
-### Gestion des Erreurs
-- Manque de gestion robuste pour des situations comme la perte de signal.
 
 ## Conclusion
 Ce code démontre une communication inter-processus utilisant des signaux UNIX. La gestion des emojis en UTF-8 est un aspect intéressant, bien que la méthode ne soit pas standard pour les applications nécessitant une communication fiable et à haut débit.
